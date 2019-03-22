@@ -10,15 +10,15 @@ callable()	Returns True if the specified object is callable, otherwise False
 chr()	Returns a character from the specified Unicode code.
 classmethod()	Converts a method into a class method
 compile()	Returns the specified source as an object, ready to be executed
-complex()	Returns a complex number
-delattr()	Deletes the specified attribute (property or method) from the specified object
+complex(2, 3)	Returns a complex number 2+3j
+delattr(class, item) Deletes the specified attribute (property or method) from the specified object
 dict()	Returns a dictionary (Array)
 dir()	Returns a list of the specified object's properties and methods
-divmod()	Returns the quotient and the remainder when argument1 is divided by argument2
+divmod(5,2)	Returns the quotient and the remainder (2,1)
 enumerate()	Takes a collection (e.g. a tuple) and returns it as an enumerate object
 eval()	Evaluates and executes an expression
 exec()	Executes the specified code (or object)
-filter()	Use a filter function to exclude items in an iterable object
+filter(myFunc, list)	Use a filter function to exclude items in an iterable object
 float()	Returns a floating point number
 format()	Formats a specified value
 frozenset()	Returns a frozenset object
@@ -30,7 +30,7 @@ help()	Executes the built-in help system
 hex()	Converts a number into a hexadecimal value
 id()	Returns the id of an object
 input()	Allowing user input
-int()	Returns an integer number
+int('123', base) Returns an integer number
 isinstance()	Returns True if a specified object is an instance of a specified object
 issubclass()	Returns True if a specified class is a subclass of a specified object
 iter()	Returns an iterator object
@@ -55,7 +55,7 @@ reversed()	Returns a reversed iterator
 round()	Rounds a numbers
 set()	Returns a new set object
 setattr()	Sets an attribute (property/method) of an object
-slice()	Returns a slice object
+slice(start, end, step)	Returns a slice object
 sorted()	Returns a sorted list
 @staticmethod()	Converts a method into a static method
 str()	Returns a string object
